@@ -15,4 +15,7 @@ Bootcamps, Cursos e Coisas da DIO
 
 ## Links Úteis
 
-* [Markdown Gui](https://www.markdownguide.org/)
+* [Markdown Gui](https://www.markdownguide.org/) : Referente a linguagem
+* [Lorem Ipsun](https://www.lipsum.com/): Gerar texto 
+* [Tiny PNG](https://tinypng.com/) : Serve para otimizar imagens e ganhar espaço
+* [MDN - Mozilla Developer Network](https://developer.mozilla.org/pt-BR/): Fonte de estudo HTML, CSS e outros
