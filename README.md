@@ -19,3 +19,5 @@ Bootcamps, Cursos e Coisas da DIO
 * [Lorem Ipsun](https://www.lipsum.com/): Gerar texto 
 * [Tiny PNG](https://tinypng.com/) : Serve para otimizar imagens e ganhar espaço
 * [MDN - Mozilla Developer Network](https://developer.mozilla.org/pt-BR/): Fonte de estudo HTML, CSS e outros
+* [Pexels](https://www.pexels.com/pt-br/) : Banco de imagens
+* [HTML Color Codes](https://htmlcolorcodes.com/) : Cores para html e códigos
