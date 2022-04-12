@@ -18,5 +18,7 @@ Utilizar a Documentação do Bootstrap
 
 ## Crie containers personalizados para o seu site
 
+## Trabalhando com imagens dento do Container
 
+## Crie lista de navegação com imagens em seu projeto
 
