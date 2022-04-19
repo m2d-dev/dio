@@ -63,3 +63,23 @@ Define ou não a quebra de linha do nosso container
 **propriedades**
 _ nowrap: Não permite quebra de linha e elementos vão vazar
 _ wrap: permite quebra de linha, assim que os itens não puder mais ser compactado \* wrap-reverse: mesma lógica do wrap, mas ao contrário, como um enter e indo para linha de cima
+
+#### 06 Estrutura básica e prática com flex flow
+
+Atalho para as propriedades flex-direction e flex-wrap
+
+**uso não é comum**
+
+#### 07 Estrutura Básica Justify Content
+
+Encarregada de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles
+
+**OBS:** Caso seus itens esteja ocupando 100% de todo o container ela não se aplica
+
+**Variações:**
+
+- flex-start: início do container
+- flex-end: final do container
+- center: ao centro do container
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
