@@ -83,3 +83,5 @@ Encarregada de alinhar os itens dentro do container de acordo com a direção pr
 - center: ao centro do container
 - space-between: cria um espaçamento igual entre os elementos
 - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+**OBS: Existem outras variações, mas essas são as principais Left, right, Normal**
