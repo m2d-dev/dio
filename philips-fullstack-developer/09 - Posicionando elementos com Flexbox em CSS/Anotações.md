@@ -8,28 +8,58 @@
 
 **Propriedades Relacionadas:**
 
-* display
-* flex-direction
-* flex-wrap
-* flex-flow
-* justify-content
-* align-items
-* align-content
+- display
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-items
+- align-content
 
 **Flex Item** : Filhos diretos do Flex Container e tambem podem se tornar flex Container
 
 **Propriedades Relacionadas**
 
-* flex-grow
-* flex-basis
-* flex-shrink
-* flex
-* order
-* align-self
+- flex-grow
+- flex-basis
+- flex-shrink
+- flex
+- order
+- align-self
 
 ## Fundamentos do Flexbox - P1
 
-#### Display Flex : Aplicável em qualquer tag HTML
+### 01 Estrutura Básica do display:flex
 
+**Extensões**
 
+- HTML Snippets
+- Live HTML PReviewer
 
+Tornar uma Tag um elemento do tipo flex conteiner, extende para seu filhos diretos automaticamente. Se tornam flex itens
+
+### 02 Prática display:flex
+
+**Adaptação dos itens seguindo ao seu conteúdo**
+
+### 03 Estrutura básica do flex direction
+
+Proprietade que estabelece o eixo principal do container, direcção que os itens são colocados )Vertical e Horizontal)
+
+- Row --> Direção padrão (1,2, 3, 4)
+- Row-Reverse --> Sentido oposto da direção do texto (4, 3, 2, 1)
+- Column --> Ordenação de cima para baixo Vertical, coluna única de cima pra baixo. (1, 2, 3, 4)
+- ColumReverse --> Ordenação de baixo pra cima(4, 3, 2, 1)
+
+### 04 Prática flex direction
+
+- Flex-direction: Row, row-reverse, column, column-reverse
+
+#### 05 Prática flex direction
+
+Define ou não a quebra de linha do nosso container
+**Padrão:** Não quebra linha
+
+**propriedades**
+_ nowrap: Não permite quebra de linha e elementos vão vazar
+_ wrap: permite quebra de linha, assim que os itens não puder mais ser compactado \* wrap-reverse: mesma lógica do wrap, mas ao contrário, como um enter e indo para linha de cima
