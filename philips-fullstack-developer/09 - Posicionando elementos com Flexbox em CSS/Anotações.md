@@ -114,8 +114,18 @@ Precisamos que:
 Tipos de alinhamento:
 
 - Centro: Alinhamento ao centro
-- Stretch: [e o padrão e os flex itens Igualmente
+- Stretch: e o padrão e os flex itens Igualmente
 - Flex-Start: Alinhamento dos itens no Início
 - Flex-End: Alinhamento dos itens no final
 - Space -between: Cria um espaçamento igual entre os elementos
 - space-around: Os espaçamentos do meio são duas vezes maiores que os inicias e finais
+
+## Fundamentos do Flexbox - P2
+
+### Flex Grow
+
+Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos
+
+**obs:** Não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container
+
+Só podemos ter números relacionados a proporção
