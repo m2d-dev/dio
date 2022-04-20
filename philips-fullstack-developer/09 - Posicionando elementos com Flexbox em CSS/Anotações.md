@@ -85,3 +85,19 @@ Encarregada de alinhar os itens dentro do container de acordo com a direção pr
 - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
 
 **OBS: Existem outras variações, mas essas são as principais Left, right, Normal**
+
+#### 08 Align Items
+
+Trata do alinhamento dos flex-itens de acordo com o eixo do container (row, column)
+
+Alinhamento central no eixo vertical
+
+Não precisa ter conhecimento da altura desses itens
+
+**Tipos de Alinhamento**
+
+- Center: Alinhamento dos itens ao centro
+- Stretch:Padrão, e os flex itens cresçam igualmente
+- flex-start: Alinhamento dos itens no início
+- flex-end: Alinhamento dos itens no final
+- Baseline: alinhamento de acordo com a linha base da tipografia dos itens
