@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos Align Content</title>
+
+    <style>
+      .container {
+        height: 400px;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+      }
+
+      .item {
+        background-color: orangered;
+        padding: 0 5px;
+        margin: 5px;
+        flex: 1;
+        text-align: center;
+        color: white;
+      }
+
+      .stretch {
+        align-content: stretch;
+      }
+
+      .center {
+        align-content: center;
+      }
+
+      .start {
+        align-content: flex-start;
+      }
+
+      .end {
+        align-content: flex-end;
+      }
+
+      .around {
+        align-content: space-around;
+      }
+
+      .between {
+        align-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Stretch</h1>
+    <div class="container stretch">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+
+    <h1>Center</h1>
+    <div class="container center">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+
+    <h1>Flex-start</h1>
+    <div class="container start">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+
+    <h1>Flex-end</h1>
+    <div class="container end">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+
+    <h1>Space Around</h1>
+    <div class="container around">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+
+    <h1>Space Botween</h1>
+    <div class="container between">
+      <div class="item">
+        Lorem ipsum dolor sit amet sed in pariatur eligendi laudantium
+        aspernatur derat!
+      </div>
+      <div class="item">consectetur adipisicing elit. Pt</div>
+      <div class="item">Lorem ipsum dolor</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+      <div class="item">non numquam digni</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">olorum ssimos, n, qua</div>
+      <div class="item">ipsum architecto, officiis eaque quasi! I</div>
+    </div>
+  </body>
+</html>

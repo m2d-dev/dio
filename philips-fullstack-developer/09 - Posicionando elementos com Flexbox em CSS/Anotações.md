@@ -101,3 +101,21 @@ Não precisa ter conhecimento da altura desses itens
 - flex-start: Alinhamento dos itens no início
 - flex-end: Alinhamento dos itens no final
 - Baseline: alinhamento de acordo com a linha base da tipografia dos itens
+
+#### 09 Align Content
+
+Responsável por tratas o alinhamento das linhas do container em relação ao eixo vertical deste
+
+Precisamos que:
+
+- O conteiner utilize quebra de linhas
+- A altura do container seja maior que a soma das linhas dos itens
+
+Tipos de alinhamento:
+
+- Centro: Alinhamento ao centro
+- Stretch: [e o padrão e os flex itens Igualmente
+- Flex-Start: Alinhamento dos itens no Início
+- Flex-End: Alinhamento dos itens no final
+- Space -between: Cria um espaçamento igual entre os elementos
+- space-around: Os espaçamentos do meio são duas vezes maiores que os inicias e finais
