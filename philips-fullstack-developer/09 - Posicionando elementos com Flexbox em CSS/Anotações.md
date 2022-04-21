@@ -149,3 +149,11 @@ Vai estabelecer a capacidade de redução ou compressão do tamanho de um item
 ### Estrutura Básica e pratica com Flex
 
 é um atalho, ou abreviação para as propriedades: Grow, Shrink e Basis (exatamente nessa ordem)
+
+### Estrutura Básica com Ordem
+
+Relacionada diretamente a largura dos nossos Itens
+
+Por padrão o Order é zero
+
+**OBS:** É permitido valores negativos
