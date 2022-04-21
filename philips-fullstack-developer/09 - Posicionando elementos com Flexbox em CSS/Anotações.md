@@ -129,3 +129,15 @@ Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de se
 **obs:** Não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container
 
 Só podemos ter números relacionados a proporção
+
+### Flex Basis
+
+Possui relação com Flex items
+
+Estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto
+
+**Valores Possíveis**
+
+- Auto: Caso não tenha tamanho, sera proporcional ao conteúdo do item.
+- PX, %, em, são valores exatos e previamente definidos
+- 0(zero): terá relação com a definição do flex-grow

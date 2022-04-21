@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos Flex Basis</title>
+
+    <style>
+      .flex-container {
+        max-width: 500px;
+        border: 1px solid black;
+        display: flex;
+      }
+
+      .item {
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        margin: 5px;
+      }
+
+      .bauto {
+        flex-basis: auto;
+      }
+
+      .fg-1 {
+        flex-grow: 1;
+      }
+
+      .fg-2 {
+        flex-grow: 2;
+      }
+
+      .bzero {
+        flex-basis: 0;
+      }
+
+      .bwidth {
+        flex-basis: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Basis Auto</h1>
+    <div class="flex-container">
+      <divi class="item bauto fg-1">A</divi>
+      <divi class="item bauto fg-1">BBB</divi>
+      <divi class="item bauto fg-1">C</divi>
+      <divi class="item bauto fg-2">DDD</divi>
+    </div>
+
+    <h1>Basis Zero</h1>
+    <div class="flex-container">
+      <divi class="item bzero fg-1">A</divi>
+      <divi class="item bzero fg-1">BBB</divi>
+      <divi class="item bzero fg-1">CCCCC</divi>
+      <divi class="item bzero fg-1">DDDDDDDD</divi>
+    </div>
+
+    <h1>Basis + Width</h1>
+    <div class="flex-container">
+      <divi class="item bwidth fg-1">A</divi>
+      <divi class="item bwidth fg-1">BBB</divi>
+      <divi class="item bwidth fg-1">CCCCC</divi>
+      <divi class="item bwidth fg-1">DDDDDDDD</divi>
+    </div>
+  </body>
+</html>
