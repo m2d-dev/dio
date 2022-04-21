@@ -141,3 +141,7 @@ Estabelece o tamanho inicial do item antes das distribuição de espaço restant
 - Auto: Caso não tenha tamanho, sera proporcional ao conteúdo do item.
 - PX, %, em, são valores exatos e previamente definidos
 - 0(zero): terá relação com a definição do flex-grow
+
+### Flex Shrink
+
+Vai estabelecer a capacidade de redução ou compressão do tamanho de um item
