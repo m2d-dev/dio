@@ -157,3 +157,16 @@ Relacionada diretamente a largura dos nossos Itens
 Por padrão o Order é zero
 
 **OBS:** É permitido valores negativos
+
+### Estrutura Básica com Align Self
+
+Estabelece alinhamento de modo individual sobre um determinado item - Diferente do padrão
+
+**Valores Possíveis**
+
+- Auto: valor padrão, irá respeitar a definição de align-items do container
+- flex-start: ao início do container
+- flex-end: ao final do container
+- center: relativo ao centro de acordo com o eixo
+- stretch: ocupa todo o espaço relativo
+- baseline: utiliza a linha base da tipografia

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos - Align Self</title>
+    <style>
+      .container {
+        display: flex;
+        max-width: 300px;
+        border: 1px solid black;
+        /* align-items: center; */
+      }
+
+      .align-container {
+        align-items: center;
+      }
+
+      .item {
+        background-color: orangered;
+        color: white;
+        font-size: 24px;
+        margin: 5px;
+        flex: 1;
+      }
+
+      .center {
+        align-self: center;
+      }
+
+      .start {
+        align-self: flex-start;
+      }
+
+      .end {
+        align-self: flex-end;
+      }
+
+      .baseline {
+        align-self: baseline;
+      }
+
+      .stretch {
+        align-self: stretch;
+      }
+
+      .auto {
+        align-self: auto;
+      }
+
+      .column {
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Row</h1>
+
+    <h2>Auto</h2>
+    <div class="container">
+      <div class="item auto">AAA</div>
+      <div class="item auto">123</div>
+      <div class="item auto">Lorem, ipsum dolor sit amet</div>
+      <div class="item auto">Item 4</div>
+    </div>
+
+    <h2>Mix</h2>
+    <div class="container">
+      <div class="item center">AAA</div>
+      <div class="item start">123</div>
+      <div class="item stretch">Lorem, ipsum dolor sit amet</div>
+      <div class="item end">Item 4</div>
+    </div>
+
+    <h2>Mix</h2>
+    <div class="container">
+      <div class="item center">AAA</div>
+      <div class="item start">AAAAAAAAAAAAA</div>
+      <div class="item stretch">AAAAAAAAAAAAAAAA</div>
+      <div class="item end">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam
+        quibusdam, veritatis ipsum quo nesciunt in laboriosam minima esse
+        perspiciatis placeat culpa voluptate sapiente sed nemo praesentium non
+        velit laudantium.
+      </div>
+    </div>
+
+    <h1>Column</h1>
+
+    <h2>Auto</h2>
+    <div class="container column">
+      <div class="item auto">AAA</div>
+      <div class="item auto">123</div>
+      <div class="item auto">Lorem, ipsum dolor sit amet</div>
+      <div class="item auto">Item 4</div>
+    </div>
+
+    <h2>Mix</h2>
+    <div class="container column">
+      <div class="item center">AAA</div>
+      <div class="item start">123</div>
+      <div class="item stretch">Lorem, ipsum dolor sit amet</div>
+      <div class="item end">Item 4</div>
+    </div>
+
+    <h2>Mix</h2>
+    <div class="container column">
+      <div class="item center">AAA</div>
+      <div class="item start">AAAAAAAAAAAAA</div>
+      <div class="item stretch">AAAAAAAAAAAAAAAA</div>
+      <div class="item end">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam
+        quibusdam, veritatis ipsum quo nesciunt in laboriosam minima esse
+        perspiciatis placeat culpa voluptate sapiente sed nemo praesentium non
+        velit laudantium.
+      </div>
+    </div>
+  </body>
+</html>
