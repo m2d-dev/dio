@@ -21,6 +21,7 @@ Bootcamps, Cursos e Coisas da DIO
 - [MDN - Mozilla Developer Network](https://developer.mozilla.org/pt-BR/): Fonte de estudo HTML, CSS e outros
 - [Pexels](https://www.pexels.com/pt-br/) : Banco de imagens
 - [HTML Color Codes](https://htmlcolorcodes.com/) : Cores para html e códigos
+- [Figma](figma.com): Design para interfaces
 
 ## VS Code
 

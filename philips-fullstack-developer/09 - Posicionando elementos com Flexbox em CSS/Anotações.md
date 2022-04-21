@@ -170,3 +170,7 @@ Estabelece alinhamento de modo individual sobre um determinado item - Diferente 
 - center: relativo ao centro de acordo com o eixo
 - stretch: ocupa todo o espaço relativo
 - baseline: utiliza a linha base da tipografia
+
+## Projeto Integrador
+
+[Link do Projeto - Arquivos] (http://gitlab.com/karensantos/project-flexbox-dio)
