@@ -145,3 +145,7 @@ Estabelece o tamanho inicial do item antes das distribuição de espaço restant
 ### Flex Shrink
 
 Vai estabelecer a capacidade de redução ou compressão do tamanho de um item
+
+### Estrutura Básica e pratica com Flex
+
+é um atalho, ou abreviação para as propriedades: Grow, Shrink e Basis (exatamente nessa ordem)
