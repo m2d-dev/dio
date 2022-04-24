@@ -164,3 +164,4 @@ Não utiliza a palavra reservada function
 Ex; var função = () => {
 instrução
 }
+
