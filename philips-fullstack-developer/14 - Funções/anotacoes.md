@@ -216,3 +216,25 @@ A palavra reservada this é uma referência de contexto. Seu valor pode mudar de
 - Sozinha --> Objeto global (em navegadores, window)
 - Função --> Objeto global
 - Evento --> Elemento que recebeu o evento
+
+## Arrow Functions
+
+Sintaxe
+
+const heloWord = () => {
+return "Hello Word"
+}
+
+Funções pequenas não precisam das chaves
+
+exemplo
+
+const soma = (a, b) => a + b;
+
+**IMPORTANTE**
+
+- Arrow function Não faz Hoisting
+- Sempre atribuida a constantes
+- "this" sempre será o objeto global. Métodos para modificar seu valor não irão funcionar
+- Não existe o objeto "arguments"
+- O construtor também não pode ser utilizado
