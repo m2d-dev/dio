@@ -22,6 +22,7 @@ Bootcamps, Cursos e Coisas da DIO
 - [Pexels](https://www.pexels.com/pt-br/) : Banco de imagens
 - [HTML Color Codes](https://htmlcolorcodes.com/) : Cores para html e códigos
 - [Figma](figma.com): Design para interfaces
+- [KeyCode](keycode.info): mostra o código das teclas. Bom para captura.
 
 ## VS Code
 
