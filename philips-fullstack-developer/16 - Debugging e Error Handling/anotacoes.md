@@ -59,3 +59,10 @@ MeuErro.name = 'InvalidMessage';
 lançando meu erro
 
 throw MeuErro;
+
+## Links Auxiliares
+
+[Objeto Error
+instanceof
+typeof
+try...catch
